@@ -126,6 +126,8 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="2016 Rush Shooter Control.vi" Type="VI" URL="../2016 Rush Shooter Control.vi"/>
 		<Item Name="Arm Control.vi" Type="VI" URL="../Arm Control.vi"/>
+		<Item Name="ButtonSinglePress.vi" Type="VI" URL="../ButtonSinglePress.vi"/>
+		<Item Name="flipflop.vi" Type="VI" URL="../flipflop.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
