@@ -129,6 +129,7 @@ AddOutputFilter chunkFilter
 		<Item Name="ButtonSinglePress.vi" Type="VI" URL="../ButtonSinglePress.vi"/>
 		<Item Name="flipflop.vi" Type="VI" URL="../flipflop.vi"/>
 		<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
+		<Item Name="PovHelper.vi" Type="VI" URL="../PovHelper.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Setpoints.vi" Type="VI" URL="../Setpoints.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
