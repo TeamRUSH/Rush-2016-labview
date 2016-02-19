@@ -2,7 +2,16 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="IOScan.Period" Type="UInt">10000</Property>
+		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="IOScan.Priority" Type="UInt">9</Property>
+		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -126,6 +135,7 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="2016 Rush Shooter Control.vi" Type="VI" URL="../2016 Rush Shooter Control.vi"/>
 		<Item Name="Arm Control.vi" Type="VI" URL="../Arm Control.vi"/>
+		<Item Name="AutomationDriveStates.ctl" Type="VI" URL="../WTI/AutomationDriveStates.ctl"/>
 		<Item Name="ButtonSinglePress.vi" Type="VI" URL="../ButtonSinglePress.vi"/>
 		<Item Name="flipflop.vi" Type="VI" URL="../flipflop.vi"/>
 		<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
@@ -652,7 +662,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
