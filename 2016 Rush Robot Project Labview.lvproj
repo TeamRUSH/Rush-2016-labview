@@ -137,6 +137,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Arm Control.vi" Type="VI" URL="../Arm Control.vi"/>
 		<Item Name="AutomationDriveStates.ctl" Type="VI" URL="../WTI/AutomationDriveStates.ctl"/>
 		<Item Name="ButtonSinglePress.vi" Type="VI" URL="../ButtonSinglePress.vi"/>
+		<Item Name="DoubleCheckAndrewsForumlas.vi" Type="VI" URL="../../../Users/dgraybeal/Desktop/DoubleCheckAndrewsForumlas.vi"/>
 		<Item Name="flipflop.vi" Type="VI" URL="../flipflop.vi"/>
 		<Item Name="navX-MXP IMU.lvlib" Type="Library" URL="../navX-MXP Library/navX-MXP IMU.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
@@ -431,6 +432,7 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_DeduceControlIMsgId.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_DeduceControlIMsgId.vi"/>
 				<Item Name="WPI_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_FeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
 				<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
 				<Item Name="WPI_CANTalonSRX_GlobalControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalControl.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
